@@ -6,7 +6,7 @@ pipeline {
 
 	stage('Test') {
 		steps {
-			sh 'python -m unittest api_test'
+			sh 'python -m unittest ${workspace}/test jenkinsfile/api_test'
 		}
 
 		post {
