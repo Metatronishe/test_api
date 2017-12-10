@@ -1,7 +1,6 @@
 import unittest
 import requests
 import json
-from page_object import PageObject
 
 class TestApi(unittest.TestCase):
 
