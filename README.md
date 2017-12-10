@@ -1,4 +1,4 @@
 Run tests:
 ```
-$ python -m unittest test_api.py
+$ python -m unittest test_api
 ```
