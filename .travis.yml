@@ -1,5 +1,4 @@
 language: python
 install:
   - pip install requests
-  - pip install json
 script: python -m unittest test_api

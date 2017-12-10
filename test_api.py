@@ -1,6 +1,5 @@
 import unittest
 import requests
-import json
 
 class TestApi(unittest.TestCase):
 
